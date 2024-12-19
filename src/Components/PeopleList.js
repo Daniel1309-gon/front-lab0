@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/persona"; // Ajusta según tu servidor
+const API_URL = "https://back-lab0.onrender.com/persona"; // Ajusta según tu servidor
 
 const PeopleList = ({ personas, setPersonas, handleUpdatePersona }) => {
   const handleDelete = async (id) => {

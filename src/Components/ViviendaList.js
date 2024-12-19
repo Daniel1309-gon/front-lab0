@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 
-const API_URL_VIVIENDA = "http://localhost:3000/vivienda"; // Ajusta según tu servidor
+const API_URL_VIVIENDA = "https://back-lab0.onrender.com/vivienda"; // Ajusta según tu servidor
 
 const ViviendaList = ({ viviendas, setViviendas, handleUpdateVivienda }) => {
   const handleDelete = async (id_viv) => {

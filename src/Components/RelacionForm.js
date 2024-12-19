@@ -1,7 +1,7 @@
 import { React } from "react";
 import axios from "axios";
 
-const API_URL_PERSONA_HAS_VIVIENDA = "http://localhost:3000/relacion"; // Ajusta según tu servidor
+const API_URL_PERSONA_HAS_VIVIENDA = "https://back-lab0.onrender.com/relacion"; // Ajusta según tu servidor
 const Form = ({
   relacion,
   setRelacion,

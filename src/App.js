@@ -12,11 +12,11 @@ import ViviendaForm from "./Components/ViviendaForm.js"
 import RelacionList from "./Components/RelacionList.js"
 import RelacionForm from "./Components/RelacionForm.js"
 
-const API_URL_PERSONA = "http://localhost:3000/persona"; // Ajusta según tu servidor
-const API_URL_MUNICIPIO = "http://localhost:3000/municipio"; // Ajusta según tu servidor
-const API_URL_DIRECCION = "http://localhost:3000/direccion"; // Ajusta según tu servidor
-const API_URL_VIVIENDA = "http://localhost:3000/vivienda"; // Ajusta según tu servidor
-const API_URL_PERSONA_HAS_VIVIENDA = "http://localhost:3000/relacion"; // Ajusta según tu servidor
+const API_URL_PERSONA = "https://back-lab0.onrender.com/persona"; // Ajusta según tu servidor
+const API_URL_MUNICIPIO = "https://back-lab0.onrender.com/municipio"; // Ajusta según tu servidor
+const API_URL_DIRECCION = "https://back-lab0.onrender.com/direccion"; // Ajusta según tu servidor
+const API_URL_VIVIENDA = "https://back-lab0.onrender.com/vivienda"; // Ajusta según tu servidor
+const API_URL_PERSONA_HAS_VIVIENDA = "https://back-lab0.onrender.com/relacion"; // Ajusta según tu servidor
 
 function App() {
   const [persona, setPersona] = useState({

@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 
-const API_URL_DIRECCION = "http://localhost:3000/direccion"; // Ajusta según tu servidor
+const API_URL_DIRECCION = "https://back-lab0.onrender.com/direccion"; // Ajusta según tu servidor
 
 const DireccionList = ({ direcciones, setDirecciones, handleUpdateDireccion }) => {
   const handleDelete = async (id_direccion) => {

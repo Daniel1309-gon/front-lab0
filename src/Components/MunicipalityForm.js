@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 
-const API_URL_MUNICIPIO = "http://localhost:3000/municipio";
+const API_URL_MUNICIPIO = "https://back-lab0.onrender.com/municipio";
 const MunicipalityForm = ({
   municipio,
   setMunicipio,
